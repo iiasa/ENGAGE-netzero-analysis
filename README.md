@@ -9,6 +9,8 @@ see the [LICENSE](LICENSE) for details.
 [![python](https://img.shields.io/badge/python-3.7_|_3.8_|_3.9-blue?logo=python&logoColor=white)](https://github.com/iiasa/ENGAGE-netzero-analysis)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+## Overview
+
 This repository will hold the source code for figure generation and analysis of the
 scenario ensemble developed in the Horizon 2020 [ENGAGE](http://www.engage-climate.org).
 A manuscript (Riahi et al.) analyzing the implications of avoiding temperature overshoot
