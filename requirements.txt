@@ -1,0 +1,1 @@
+pyam-iamc>=1.2  # the pyam package is released on pypi under this name
