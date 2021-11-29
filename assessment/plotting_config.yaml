@@ -1,0 +1,107 @@
+color:
+  category: 
+    '>2.5C': grey
+    '2.5C': xkcd:darkish blue
+    '2C': xkcd:bluish
+    '1.5C (with low overshoot)': xkcd:baby blue
+  model:
+    AIM/CGE: orange
+    COFFEE: tan
+    IMAGE: red
+    REMIND-MAgPIE: grey
+    POLES: purple
+    WITCH: black
+    GEM-E3: navy
+    MESSAGEix-GLOBIOM: blue
+    TIAM-ECN: green
+  variable:
+    # color by sector
+    AFOLU: green
+    Energy Demand: royalblue
+    Industry: navy
+    Transportation: lightskyblue
+    Buildings: royalblue
+    Energy Supply: red
+    Industrial Processes: darkorange
+    # color by fuel
+    Electricity: xkcd:baby blue
+    Solar: xkcd:bluish
+    Heat: xkcd:darkish blue
+    Hydrogen: royalblue
+    Geothermal: lightskyblue
+    Liquids: red
+    Bio-Fuels: orangered
+    Oil: darkred
+    Gases: orange
+    Solids: brown
+    Coal: saddlebrown
+    Biomass: peru
+    # Other is used as both fuel and sector
+    Other: purple
+  region:
+    Asia: firebrick
+    Latin America: purple
+    Middle East & Africa: green
+    OECD & EU: orange
+    Reforming Economies: darkblue
+    Other: grey
+  budget_type:
+    peak_budget: blue
+    full_century_budget: red
+rename_mapping:
+  model:
+    AIM/CGE V2.2: AIM/CGE
+    COFFEE 1.1: COFFEE
+    GEM-E3 V2021: GEM-E3
+    IMAGE 3.0: IMAGE
+    MESSAGEix-GLOBIOM 1.1: MESSAGEix-GLOBIOM
+    POLES-JRC ENGAGE: POLES
+    REMIND-MAgPIE 2.1-4.2: REMIND-MAgPIE
+    TIAM-ECN 1.1: TIAM-ECN
+    WITCH 5.0: WITCH
+  region:
+    Asia (R5): Asia
+    Latin America (R5): Latin America
+    Middle East & Africa (R5): Middle East & Africa
+    OECD & EU (R5): OECD & EU
+    Reforming Economies (R5): Reforming Economies
+    Other (R5): Other
+order:
+  model:
+    - Reference (2018)
+    - REMIND-MAgPIE
+    - GEM-E3
+    - MESSAGEix-GLOBIOM
+    - IMAGE
+    - COFFEE
+    - POLES
+    - AIM/CGE
+    - TIAM-ECN
+    - WITCH
+  variable:
+    # order by sector
+    - Industrial Processes
+    - AFOLU
+    - Energy Demand
+    - Industry
+    - Buildings
+    - Transportation
+    - Energy Supply
+    # order by fuel
+    - Electricity
+    - Solar
+    - Heat
+    - Hydrogen
+    - Geothermal
+    - Liquids
+    - Gases
+    - Solids
+    # Other is used as both fuel and sector
+    - Other
+  region:
+    - Asia
+    - Latin America
+    - Middle East & Africa
+    - OECD & EU
+    - Reforming Economies
+    - Other
